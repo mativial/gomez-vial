@@ -17,16 +17,17 @@ font-family: 'Rubik', sans-serif;
 
 h1{
 	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
-	text-shadow: 1px 1px 0 #999;	
+	color:rgba(0,0,0,0.9);
+	font-size:4em;
+		
 	text-align:center;
 }
 
 h2{
 	letter-spacing:0.02em; 
-	color:rgba(255,255,255,0.6); 
-	padding:0.2em 0; 
-	text-shadow: 1px 1px 0 #999;
+	color:rgba(255,255,51,0.9); 
+	padding:0.05em 0; 
+
 	text-align:center;		
 }
 
@@ -34,7 +35,6 @@ h3{
 	letter-spacing:0.2em; 
 	color:rgba(0,0,0,.75); 
 	padding:2em 0 0.6em 0; 
-	text-shadow: 1px 1px 0 #ccc;
 	text-align:center;	
 }
 
@@ -81,26 +81,26 @@ video{
 	}
 
 .dupla a{
-	color:rgba(255,0,0,0.75);
+	color:rgba(0,0,0,0.9);
 	text-decoration:none;
 	font-weight:700;
 }
 
 .dupla a:hover{
-	color:rgba(255,0,0,1);
+	color:rgba(41,171,226,0.8);
 	text-decoration:underline;
 }
 
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
+	background-color:rgba(255,255,51,0.9);
 	background-image:url('media/dupla-01.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
 }
-.primera h4{padding: 2% 40% 1% 2%;}
+.primera h4{padding: 2% 40% 1% 2%; font-size:2em}
 
 .primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
 
@@ -111,14 +111,14 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
+	background-color:rgba(255,255,51,0.9);
 	background-image:url('media/dupla-02.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
 }
 
-.segunda h4{padding: 2% 2% 1% 40%;}
+.segunda h4{padding: 2% 2% 1% 40%;font-size:2em}
 
 .segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
 
@@ -135,6 +135,7 @@ video{
 	width:100%;
 	padding-bottom:1%;
 	background:linear-gradient(to bottom right, #F2E6D4, #E7F0EF);
+
 }
 
 .item {
@@ -167,7 +168,7 @@ video{
 }
 
 .item h4{
-	font-size:1em;
+	font-size:1.5em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
 }
