@@ -6,13 +6,13 @@
 body{
 	background:rgba(255,255,255,1);
 	color:rgba(25,25,25,1);
-	font-family: 'Work Sans', sans-serif;
-	font-weight:400;
+	font-family: 'Rubik', sans-serif;
+	font-weight:300;
 }
 
 h1, h2, h3, h4{
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 
+font-family: 'Rubik', sans-serif;
+	font-weight:700,400; 
 }
 
 h1{
