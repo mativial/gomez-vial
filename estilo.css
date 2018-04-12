@@ -6,19 +6,20 @@
 body{
 	background:rgba(255,255,255,1);
 	color:rgba(25,25,25,1);
-	font-family: 'Rubik', sans-serif;
-	font-weight:300;
+	font-family: 'IBM Plex Serif', serif;
+	font-weight:400;
 }
 
 h1, h2, h3, h4{
-font-family: 'Rubik', sans-serif;
-	font-weight:700,400; 
+font-family: 'Work Sans', sans-serif;
+	font-weight:700; 
 }
 
 h1{
-	letter-spacing:0.1em;
-	color:rgba(0,0,0,0.9);
-	font-size:4em;
+	letter-spacing:0.05em;
+	color:rgba(255,255,255,0.9);
+	font-size:6em;
+
 		
 	text-align:center;
 }
@@ -27,6 +28,9 @@ h2{
 	letter-spacing:0.02em; 
 	color:rgba(255,255,51,0.9); 
 	padding:0.05em 0; 
+	font-weight:700;
+	font-family: 'IBM Plex Serif', serif;
+	font-size:1.7em;
 
 	text-align:center;		
 }
@@ -134,7 +138,7 @@ video{
 #portafolio{
 	width:100%;
 	padding-bottom:1%;
-	background:linear-gradient(to bottom right, #F2E6D4, #E7F0EF);
+	background:linear-gradient(to bottom right);
 
 }
 
@@ -183,8 +187,8 @@ footer{
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 	
+	font-family: 'IBM Plex Serif', sans-serif; 
+	font-weight:400; 	
 }
 
 footer p{
